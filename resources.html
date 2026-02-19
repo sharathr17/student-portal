@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resources | Student Learning Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    <div class="logo">🎓 Student Portal</div>
+
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="resources.html">Resources</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="my-learning.html">My Learning</a>
+    </nav>
+
+    <div class="nav-btn">
+        <a href="courses.html">Enroll Now</a>
+    </div>
+</header>
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="page-header">
+    <h1>Learning Resources</h1>
+    <p>
+        Browse, search, bookmark, and download academic resources
+        to support your learning.
+    </p>
+</section>
+
+<!-- ===== RESOURCE CONTROLS ===== -->
+<section class="resource-controls">
+    <input type="text" id="searchResource" placeholder="Search resources...">
+
+    <select id="typeFilter">
+        <option value="all">All Types</option>
+        <option value="notes">Lecture Notes</option>
+        <option value="video">Video Tutorials</option>
+        <option value="assignment">Assignments</option>
+        <option value="paper">Question Papers</option>
+    </select>
+
+    <p class="resource-count">
+        Total Resources: <strong id="resourceCount">0</strong>
+    </p>
+</section>
+
+<!-- ===== RESOURCE LIST ===== -->
+<section class="resource-section">
+    <div class="resource-container" id="resourceList">
+        <!-- Loaded via JS -->
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <p>© 2026 Student Learning Portal | All Rights Reserved</p>
+</footer>
+
+<!-- External JS -->
+<script src="js/script.js"></script>
+</body>
+</html>

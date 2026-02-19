@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses | Student Learning Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    <div class="logo">🎓 Student Portal</div>
+
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="resources.html">Resources</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="my-learning.html">My Learning</a>
+    </nav>
+
+    <div class="nav-btn">
+        <a href="index.html">Dashboard</a>
+    </div>
+</header>
+
+<!-- ===== PAGE HEADER ===== -->
+<section class="page-header">
+    <h1>Our Courses</h1>
+    <p>
+        Explore academic, technical, and skill-based courses
+        designed to support your learning and career growth.
+    </p>
+</section>
+
+<!-- ===== COURSE STATS ===== -->
+<section class="course-stats">
+    <div class="stat-card">
+        <h2 id="totalCourses">0</h2>
+        <p>Total Courses</p>
+    </div>
+    <div class="stat-card">
+        <h2>100+</h2>
+        <p>Enrolled Students</p>
+    </div>
+    <div class="stat-card">
+        <h2>20+</h2>
+        <p>Expert Faculty</p>
+    </div>
+</section>
+
+<!-- ===== COURSE FILTER ===== -->
+<section class="course-filter">
+    <h2>Filter Courses</h2>
+<select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="technical">Technical</option>
+        <option value="academic">Academic</option>
+        <option value="skill">Skill Development</option>
+    </select>
+</section>
+
+<!-- ===== COURSE LIST ===== -->
+<section class="course-section">
+    <div class="course-container" id="course-list">
+        <!-- Courses loaded via JS -->
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <p>© 2026 Student Learning Portal | All Rights Reserved</p>
+</footer>
+
+<!-- External JS -->
+<script src="js/script.js"></script>
+</body>
+</html>
